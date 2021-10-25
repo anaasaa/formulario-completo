@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2> formulario</h2>
+
+<table style="width:100%">
+  <tr>
+    <th colspan="2"> user form</th>
+    
+  </tr>
+  <tr>
+    <td>enter name </td>
+    <td><form action="/action_page.php">
+  <label for="enter name"> </label>
+  <input type="text" id="enter name" name="enter name"><br><br>
+    
+  </tr>
+  <tr>
+    <td>password</td>
+    <td><label for="pwd"> <label>
+  <input type="password" id="pwd" name="pwd" minlength="8"><br><br></td>
+    
+  </tr>
+  <tr>
+  <td> select game </td>
+  <td> <input type="checkbox" name="str" id="hockey" value="hockey"><label for="hockey">hockey</label><br>
+                <input type="checkbox" name="str" id="football" value="football"><label for="football">football</label><br>
+<input type="checkbox" name="str" id="badminton" value="badminton"><label for="badminton">badminton</label><br>
+<input type="checkbox" name="str" id="cricket" value="cricket"><label for="cricket">cricket</label><br>
+<input type="checkbox" name="str" id="bolleyball" value="bolleyball"><label for="bolleyball">bolleyball</label><br>
+</tr>
+<tr>
+<td > gender</td>
+<td> <input type="radio" name="str" id="male" value="male"><label for="male">male</label><br>
+<input type="radio" name="str" id="female" value="female"><label for="female">female</label><br>
+</tr>
+<tr>
+  <td> select your age </td>
+  <td><label for="age"></label>
+<select id="age" name="agelist" form="ageform">
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+</select>
+</tr>
+<tr>
+  <td> <form>
+  <input type="button" value="examinar" onclick="msg()">
+</form> no se ha seleccionado ningun archivo
+</tr>
+<tr>
+  <td> <form>
+  <input type="button" value="Click me" onclick="msg()">
+</form> <form> <input type="button" value="restablezer" onclick="msg()">
+</form>
+<form>
+  <input type="button" value="submit form" onclick="msg()">
+</form>
+
+</table>
+
+
+
+</body>
+</html>
